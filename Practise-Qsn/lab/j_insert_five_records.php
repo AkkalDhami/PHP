@@ -14,7 +14,7 @@ if (!$conn) {
     $sql = "INSERT INTO user  VALUES (
         1,
         'rajan',
-        'arajan@gmail.com',
+        'rajan@gmail.com',
         'rajan123'
     ),
     (
