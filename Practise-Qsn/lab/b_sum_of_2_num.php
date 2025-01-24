@@ -18,15 +18,15 @@
     </form>
     <?php
      // without function:
-        $num1 = $_POST['num1'];
-        $num2 = $_POST['num2'];
-        echo "The sum is " . ($num1 + $num2);
+        $number1 = $_POST['num1'];
+        $number2 = $_POST['num2'];
+        echo "The sum is " . ($number1 + $number2);
         
     // with function:
     function add($num1, $num2){
         return $num1 + $num2;
     }
-    $add = add($num1, $num2);
+    $add = add($number1, $number2);
     echo "<br>The sum is {$add}";
     echo "<br> Program Executed By Akkal Dhami";
     ?>
