@@ -12,35 +12,13 @@ if (!$conn) {
 
 
     $sql = "INSERT INTO user  VALUES (
-        1,
-        'rajan',
-        'rajan@gmail.com',
-        'rajan123'
-    ),
-    (
-        2,
-        'rajan',
-        'rajan2@gmail.com',
-        'rajan123sad'
-    ),
-    (
-        3,
-        'rajan4',
-        'rajan4@gmail.com',
-        'rajanas123'
-    ),
-    (
-        4,
-        'rajan5',
-        'rajan5@gmail.com',
-        'raasdjan123'
-    ),
-    (
-        5,
-        'rajan6',
-        'rajan6@gmail.com',
-        'rajasadn123'
-    )";
+        1, 'Sandip', 'Sandip123@gmail.com', 'sjhdsij',
+        2, 'Shash', 'Shash65@gmail.com', 'seckdkjdfskj',
+        3, 'akkal', 'akkal@gmail.com', 'mysecret789',
+        4, 'Bibek', 'Bibek@gmail.com', 'passw0rd321',
+        5, 'suraj', 'suraj@gmail.com', 'adminpass654'
+       )
+     ";
 
     if (mysqli_query($conn, $sql)) {
         echo "Record for 5 users inserted successfully.<br>";

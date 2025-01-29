@@ -10,7 +10,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$userId = 113; 
+$userId = 3; 
 $newName = "Ramesh";
 $newEmail = "Ramesh123@example.com";
 
